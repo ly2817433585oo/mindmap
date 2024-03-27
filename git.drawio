@@ -1,17 +1,146 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T00:02:25.003Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sAgvoHkHZCL4ZtCu2zut" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T01:04:16.977Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="dWjV--viQ8ryJx8ufhFi" version="24.1.0" type="github">
   <diagram name="第 1 页" id="XfYK5ym5bn-TH3xhJaiv">
-    <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dV2PWm62k9ZfegvU0sN4-1" target="dV2PWm62k9ZfegvU0sN4-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="425" />
+              <mxPoint x="20" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dV2PWm62k9ZfegvU0sN4-1" target="dV2PWm62k9ZfegvU0sN4-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="425" />
+              <mxPoint x="20" y="473" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="585" width="487" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-13" value="3. 几乎所有操作都是本地执行" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-15">
+          <mxGeometry width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-14" value="&lt;span style=&quot;color: rgb(78, 68, 60); font-family: sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot;&gt;因为你在本地磁盘上就有项目的完整历史，所以&lt;/span&gt;&lt;span style=&quot;color: rgb(78, 68, 60); font-family: sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot;&gt;绝大多数操作都只需要访问本地文件和资源，一般不需要来自网络上其它计算机的信息&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-15">
+          <mxGeometry y="30" width="487" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dV2PWm62k9ZfegvU0sN4-1" target="dV2PWm62k9ZfegvU0sN4-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="425" />
+              <mxPoint x="20" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-29" value="4. git只添加数据" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dV2PWm62k9ZfegvU0sN4-1" target="dV2PWm62k9ZfegvU0sN4-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="425" />
+              <mxPoint x="20" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="80" y="380" width="587" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-16" value="2. 保证完整性" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-30">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-28" value="" style="group" vertex="1" connectable="0" parent="dV2PWm62k9ZfegvU0sN4-30">
+          <mxGeometry y="30" width="587" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-24" value="" style="group" vertex="1" connectable="0" parent="dV2PWm62k9ZfegvU0sN4-28">
+          <mxGeometry y="50" width="587" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dV2PWm62k9ZfegvU0sN4-24" source="dV2PWm62k9ZfegvU0sN4-17" target="dV2PWm62k9ZfegvU0sN4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="dV2PWm62k9ZfegvU0sN4-24" source="dV2PWm62k9ZfegvU0sN4-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-17" value="文件内容和目录结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-24">
+          <mxGeometry width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="dV2PWm62k9ZfegvU0sN4-24" source="dV2PWm62k9ZfegvU0sN4-18" target="dV2PWm62k9ZfegvU0sN4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-18" value="SHA-1哈希" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-24">
+          <mxGeometry x="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dV2PWm62k9ZfegvU0sN4-24" source="dV2PWm62k9ZfegvU0sN4-19" target="dV2PWm62k9ZfegvU0sN4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-19" value="计算校验和" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-24">
+          <mxGeometry x="320" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-22" value="存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-24">
+          <mxGeometry x="477" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.641;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dV2PWm62k9ZfegvU0sN4-24" source="dV2PWm62k9ZfegvU0sN4-18" target="dV2PWm62k9ZfegvU0sN4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-27" value="作为索引" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-28">
+          <mxGeometry x="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dV2PWm62k9ZfegvU0sN4-1" target="dV2PWm62k9ZfegvU0sN4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="50" width="810" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-2" value="1. 直接记录快照，而非差异比较&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(78, 68, 60); font-family: sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot;&gt;在 Git 中，每当你提交更新或保存项目状态时，它基本上就会对当时的全部文件创建一个快照并保存这个快照的索引。 为了效率，如果文件没有修改，Git 不再重新存储该文件，而是只保留一个链接指向之前存储的文件。 Git 对待数据更像是一个&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;box-sizing: border-box; color: rgb(78, 68, 60); font-family: sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot;&gt;快照流&lt;/strong&gt;&lt;span style=&quot;color: rgb(78, 68, 60); font-family: sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot;&gt;。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-31">
+          <mxGeometry width="550" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-6" value="" style="group" vertex="1" connectable="0" parent="dV2PWm62k9ZfegvU0sN4-31">
+          <mxGeometry y="100" width="361.29" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://git-scm.com/book/en/v2/images/deltas.png;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-6">
+          <mxGeometry y="30" width="361.29" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-5" value="差异比较" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-6">
+          <mxGeometry width="52.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-12" value="" style="group" vertex="1" connectable="0" parent="dV2PWm62k9ZfegvU0sN4-31">
+          <mxGeometry x="410" y="100" width="400" height="182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://git-scm.com/book/en/v2/images/snapshots.png;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-12">
+          <mxGeometry y="30" width="400" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-11" value="记录快照" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dV2PWm62k9ZfegvU0sN4-12">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dV2PWm62k9ZfegvU0sN4-1" target="dV2PWm62k9ZfegvU0sN4-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-36" value="特点" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="394.5" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="dV2PWm62k9ZfegvU0sN4-1" value="Git" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="-390" y="394.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dV2PWm62k9ZfegvU0sN4-2" value="直接记录快照，而非差异比较&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(78, 68, 60); font-family: sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot;&gt;在 Git 中，每当你提交更新或保存项目状态时，它基本上就会对当时的全部文件创建一个快照并保存这个快照的索引。 为了效率，如果文件没有修改，Git 不再重新存储该文件，而是只保留一个链接指向之前存储的文件。 Git 对待数据更像是一个&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;box-sizing: border-box; color: rgb(78, 68, 60); font-family: sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot;&gt;快照流&lt;/strong&gt;&lt;span style=&quot;color: rgb(78, 68, 60); font-family: sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot;&gt;。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="20" width="550" height="100" as="geometry" />
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-37" value="三种状态&lt;div&gt;1. 已修改（modifyed）2.&lt;span style=&quot;background-color: initial;&quot;&gt;已暂存（staged）&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;已提交（commited）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;三个阶段：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 工作区（Working Directory） 2. 暂存区（Staging Area） 3. Git目录 （.git directory）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;box-sizing: border-box; color: rgb(78, 68, 60); font-family: Adelle, &amp;quot;Roboto Slab&amp;quot;, &amp;quot;DejaVu Serif&amp;quot;, Georgia, &amp;quot;Times New Roman&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot; class=&quot;paragraph&quot;&gt;&lt;p style=&quot;margin: 0px 0px 11px; line-height: 22px; box-sizing: border-box; font-family: sans-serif;&quot;&gt;工作区是对项目的某个版本独立提取出来的内容。 这些从 Git 仓库的压缩数据库中提取出来的文件，放在磁盘上供你使用或修改。&lt;/p&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; font-family: Adelle, &amp;quot;Roboto Slab&amp;quot;, &amp;quot;DejaVu Serif&amp;quot;, Georgia, &amp;quot;Times New Roman&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot; class=&quot;paragraph&quot;&gt;&lt;p style=&quot;margin: 0px 0px 11px; line-height: 22px; box-sizing: border-box; font-family: sans-serif;&quot;&gt;&lt;font color=&quot;#4e443c&quot;&gt;暂存区是一个&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;文件&lt;/font&gt;&lt;font color=&quot;#4e443c&quot;&gt;，保存了下次将要提交的文件列表信息，一般在 Git 仓库目录中。 按照 Git 的术语叫做“索引”，不过一般说法还是叫“暂存区”。&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; font-family: Adelle, &amp;quot;Roboto Slab&amp;quot;, &amp;quot;DejaVu Serif&amp;quot;, Georgia, &amp;quot;Times New Roman&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(252, 252, 250);&quot; class=&quot;paragraph&quot;&gt;&lt;p style=&quot;margin: 0px 0px 11px; line-height: 22px; box-sizing: border-box; font-family: sans-serif;&quot;&gt;&lt;font color=&quot;#4e443c&quot;&gt;Git 仓库目录是 Git 用来&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;保存项目的元数据和对象数据库的地方&lt;/font&gt;&lt;font color=&quot;#4e443c&quot;&gt;。 这是 Git 中最重要的部分，从其它计算机克隆仓库时，复制的就是这里的数据&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-585" y="610" width="510" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="dV2PWm62k9ZfegvU0sN4-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://git-scm.com/book/en/v2/images/deltas.png;" vertex="1" parent="1">
-          <mxGeometry x="80" y="230" width="748.39" height="290" as="geometry" />
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-38" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://git-scm.com/book/en/v2/images/areas.png;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="655" width="390" height="214.99" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-41" value="配置" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-315" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dV2PWm62k9ZfegvU0sN4-42" value="三种不同层级的配置：&lt;div&gt;&lt;div&gt;1. 系统级：&lt;/div&gt;&lt;div&gt;/etc/gitconfig 系统中每一个用户以及他们仓库的通用配置&lt;/div&gt;&lt;div&gt;使用 git config --system 读写&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 用户级：&lt;/div&gt;&lt;div&gt;~/.git/config 或~/.config/git/config&amp;nbsp;&lt;/div&gt;&lt;div&gt;使用git config --global 读写&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 仓库级：&lt;/div&gt;&lt;div&gt;.git / config&lt;/div&gt;&lt;div&gt;使用git config --local 读写&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="90" width="300" height="212.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
